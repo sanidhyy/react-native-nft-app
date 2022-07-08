@@ -9,6 +9,8 @@ import {
   EndDate,
   SubInfo,
 } from "./SubInfo";
+import DetailsDesc from "./DetailsDesc";
+import DetailsBid from "./DetailsBid";
 
 export {
   HomeHeader,
@@ -21,4 +23,6 @@ export {
   People,
   EndDate,
   SubInfo,
+  DetailsDesc,
+  DetailsBid,
 };
