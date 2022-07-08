@@ -2,7 +2,8 @@ import { useState } from "react";
 import { View, SafeAreaView, FlatList, Text } from "react-native";
 
 import { COLORS, NFTData } from "../constants";
-import { NFTCard, HomeHeader, FocusedStatusBar } from "../components";
+import NFTCard from "../components/NFTCard";
+import { HomeHeader, FocusedStatusBar } from "../components";
 
 const Home = () => {
   return (
