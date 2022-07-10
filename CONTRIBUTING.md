@@ -1,7 +1,7 @@
 ## Contributing
 
 [fork]: https://github.com/Technical-Shubham-tech/react-native-nft-app/fork
-[pr]: https://github.com/Technical-Shubham-tech/react-native-nft-app/compare
+[pr]: https://github.com/Technical-Shubham-tech/react-native-nft-app/pulls
 [style]: https://standardjs.com/
 [code-of-conduct]: CODE_OF_CONDUCT.md
 
