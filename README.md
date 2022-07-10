@@ -9,6 +9,7 @@
 [![Github commits](https://badgen.net/github/commits/Technical-Shubham-tech/react-native-nft-app/main)](https://github.com/Technical-Shubham-tech/react-native-nft-app/commits "Github commits")
 [![GitHub issues](https://img.shields.io/github/issues/Technical-Shubham-tech/react-native-nft-app)](https://github.com/Technical-Shubham-tech/react-native-nft-app/issues "GitHub issues")
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/Technical-Shubham-tech/react-native-nft-app)](https://github.com/Technical-Shubham-tech/react-native-nft-app/pulls "GitHub pull requests")
+[![Showcase Website](https://img.shields.io/badge/showcase-website-default.svg)](https://pronef-showcase-app.netlify.app/ "Showcase Website")
 
 ## :warning: Before you start
 
@@ -22,8 +23,8 @@
 1. Clone this **repository** to your local computer.
 2. Open **terminal** in root directory.
 3. Type and Run `npm install` or `yarn install`.
-4. Once packages are installed, you can start this app using `npm start` or `yarn start`
-5. Now app is fully configured and you can start using this app :+1:
+4. Once packages are installed, you can start this app using `npm start` or `yarn start`.
+5. Now app is fully configured and you can start using this app :+1:.
 
 **More Info** related [How to start Expo App](https://www.reactnative.dev/docs/environment-setup "How to start Expo App")
 
