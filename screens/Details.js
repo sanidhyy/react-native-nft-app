@@ -18,6 +18,7 @@ import {
   DetailsBid,
 } from "../components";
 
+// Details Header
 const DetailsHeader = ({ data, navigation }) => (
   <View
     style={{
@@ -25,12 +26,14 @@ const DetailsHeader = ({ data, navigation }) => (
       height: 373,
     }}
   >
+    {/* NFT Image */}
     <Image
       source={data.image}
       resizeMode="cover"
       style={{ width: "100%", height: "100%" }}
     />
 
+    {/* Go Back Button */}
     <CircleButton
       imgUrl={assets.left}
       handlePress={() => navigation.goBack()}
@@ -38,25 +41,30 @@ const DetailsHeader = ({ data, navigation }) => (
       top={StatusBar.currentHeight + 10}
     />
 
+    {/* Add to Fav Button */}
     <CircleButton
-      imgUrl={assets.heart}}
+      imgUrl={assets.heart}
       right={15}
       top={StatusBar.currentHeight + 10}
     />
   </View>
 );
 
+// Details
 const Details = ({ route, navigation }) => {
+  // get data
   const { data } = route.params;
 
   return (
     <SafeAreaView style={{ flex: 1 }}>
+      {/* Status Bar */}
       <FocusedStatusBar
         barStyle="dark-content"
         backgroundColor="transparent"
         translucent={true}
       />
 
+      {/* Place a bid */}
       <View
         style={{
           width: "100%",
@@ -74,10 +82,12 @@ const Details = ({ route, navigation }) => {
 
       <FlatList
         data={data.bids}
+        // render bid
         renderItem={({ item }) => <DetailsBid bid={item} />}
         keyExtractor={(item) => item.id}
         showsVerticalScrollIndicator={false}
         contentContainerStyle={{ paddingBottom: SIZES.extraLarge * 3 }}
+        // Header
         ListHeaderComponent={() => (
           <React.Fragment>
             <DetailsHeader data={data} navigation={navigation} />
@@ -86,6 +96,7 @@ const Details = ({ route, navigation }) => {
               <DetailsDesc data={data} />
 
               {data.bids.length > 0 && (
+                // Current Bids
                 <Text
                   style={{
                     fontSize: SIZES.font,

@@ -1,3 +1,6 @@
+// Add new assets here after creating them
+// Make sure not to delete anything from here (if not sure)
+
 import badge from "../assets/icons/badge.png";
 import eth from "../assets/icons/eth.png";
 import heart from "../assets/icons/heart.png";

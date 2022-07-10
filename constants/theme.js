@@ -1,3 +1,4 @@
+// COLORS
 export const COLORS = {
   primary: "#001F2D",
   secondary: "#4D626C",
@@ -6,6 +7,7 @@ export const COLORS = {
   gray: "#74858C",
 };
 
+// SIZES
 export const SIZES = {
   base: 8,
   small: 12,
@@ -15,6 +17,7 @@ export const SIZES = {
   extraLarge: 24,
 };
 
+// FONTS
 export const FONTS = {
   bold: "InterBold",
   semiBold: "InterSemiBold",
@@ -23,6 +26,7 @@ export const FONTS = {
   light: "InterLight",
 };
 
+// SHADOWS
 export const SHADOWS = {
   light: {
     shadowColor: COLORS.gray,

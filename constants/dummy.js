@@ -1,5 +1,8 @@
+// Contains dummy data for whole website (don't remove if not sure)
+
 import assets from "./assets";
 
+// NFT Data
 const NFTData = [
   {
     id: "NFT-01",
