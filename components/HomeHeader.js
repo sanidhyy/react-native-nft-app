@@ -2,6 +2,7 @@ import { View, Text, Image, TextInput } from "react-native";
 
 import { COLORS, FONTS, SIZES, assets } from "../constants";
 
+// Home Header
 const HomeHeader = ({ onSearch }) => {
   return (
     <View
@@ -17,6 +18,7 @@ const HomeHeader = ({ onSearch }) => {
           alignItems: "center",
         }}
       >
+        {/* Brand Logo */}
         <Image
           source={assets.logo}
           resizeMode="contain"
@@ -24,11 +26,14 @@ const HomeHeader = ({ onSearch }) => {
         />
 
         <View style={{ width: 45, height: 45 }}>
+          {/* Avatar */}
           <Image
             source={assets.person01}
             resizeMode="contain"
             style={{ width: "100%", height: "100%" }}
           />
+
+          {/* Verfied Badge */}
           <Image
             source={assets.badge}
             resizeMode="contain"
@@ -44,6 +49,7 @@ const HomeHeader = ({ onSearch }) => {
       </View>
 
       <View style={{ marginVertical: SIZES.font }}>
+        {/* Hello Text */}
         <Text
           style={{
             fontFamily: FONTS.regular,
@@ -53,6 +59,7 @@ const HomeHeader = ({ onSearch }) => {
         >
           Hello, Victoria 👋
         </Text>
+        {/* Sub Heading */}
         <Text
           style={{
             fontFamily: FONTS.bold,
@@ -77,12 +84,14 @@ const HomeHeader = ({ onSearch }) => {
             paddingVertical: SIZES.small - 2,
           }}
         >
+          {/* Search Icon */}
           <Image
             source={assets.search}
             resizeMode="contain"
             style={{ width: 20, height: 20, marginRight: SIZES.base }}
           />
 
+          {/* Search Input */}
           <TextInput
             placeholder="Search NFTs"
             style={{ flex: 1 }}

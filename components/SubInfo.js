@@ -2,9 +2,11 @@ import { View, Text, Image } from "react-native";
 
 import { SIZES, FONTS, COLORS, SHADOWS, assets } from "../constants";
 
+// NFT Title
 export const NFTTitle = ({ title, subTitle, titleSize, subTitleSize }) => {
   return (
     <View>
+      {/* Title */}
       <Text
         style={{
           fontFamily: FONTS.semiBold,
@@ -14,6 +16,7 @@ export const NFTTitle = ({ title, subTitle, titleSize, subTitleSize }) => {
       >
         {title}
       </Text>
+      {/* Sub Title */}
       <Text
         style={{
           fontFamily: FONTS.regular,
@@ -27,14 +30,18 @@ export const NFTTitle = ({ title, subTitle, titleSize, subTitleSize }) => {
   );
 };
 
+// Eth Price
 export const EthPrice = ({ price }) => {
   return (
     <View style={{ flexDirection: "row", alignItems: "center" }}>
+      {/* Etherium Image */}
       <Image
         source={assets.eth}
         resizeMode="contain"
         style={{ width: 20, height: 20, marginRight: 2 }}
       />
+
+      {/* Price */}
       <Text
         style={{
           fontFamily: FONTS.medium,
@@ -48,6 +55,7 @@ export const EthPrice = ({ price }) => {
   );
 };
 
+// Image Component
 export const ImageCmp = ({ imgUrl, index }) => {
   return (
     <Image
@@ -62,6 +70,7 @@ export const ImageCmp = ({ imgUrl, index }) => {
   );
 };
 
+// People
 export const People = () => {
   return (
     <View style={{ flexDirection: "row" }}>
@@ -74,6 +83,7 @@ export const People = () => {
   );
 };
 
+// End Date
 export const EndDate = () => {
   return (
     <View
@@ -88,6 +98,7 @@ export const EndDate = () => {
         maxWidth: "50%",
       }}
     >
+      {/* Ending in */}
       <Text
         style={{
           fontFamily: FONTS.regular,
@@ -97,6 +108,7 @@ export const EndDate = () => {
       >
         Ending in
       </Text>
+      {/* Time (hh:mm) */}
       <Text
         style={{
           fontFamily: FONTS.semiBold,
@@ -110,6 +122,7 @@ export const EndDate = () => {
   );
 };
 
+// SubInfo
 export const SubInfo = () => {
   return (
     <View
@@ -121,7 +134,9 @@ export const SubInfo = () => {
         justifyContent: "space-between",
       }}
     >
+      {/* People */}
       <People />
+      {/* End Date */}
       <EndDate />
     </View>
   );

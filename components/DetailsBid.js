@@ -3,6 +3,7 @@ import { View, Text, Image } from "react-native";
 import { EthPrice } from "./SubInfo";
 import { COLORS, SIZES, FONTS } from "../constants";
 
+// Details Bid
 const DetailsBid = ({ bid }) => {
   return (
     <View
@@ -15,6 +16,7 @@ const DetailsBid = ({ bid }) => {
         paddingHorizontal: SIZES.base * 2,
       }}
     >
+      {/* Bid Image */}
       <Image
         source={bid.image}
         resizeMode="contain"
@@ -22,6 +24,7 @@ const DetailsBid = ({ bid }) => {
       />
 
       <View>
+        {/* Bid Name */}
         <Text
           style={{
             fontFamily: FONTS.semiBold,
@@ -39,7 +42,7 @@ const DetailsBid = ({ bid }) => {
             marginTop: 3,
           }}
         >
-          Bid placed by {bid.name}
+          {bid.date}
         </Text>
       </View>
 

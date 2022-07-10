@@ -1,9 +1,11 @@
-import { TouchableOpacity, View, Text, Image } from "react-native";
+import { TouchableOpacity, Text, Image } from "react-native";
 
-import { COLORS, SIZES, SHADOWS, assets, FONTS } from "../constants";
+import { COLORS, SIZES, SHADOWS, FONTS } from "../constants";
 
+// Circle Button
 export const CircleButton = ({ imgUrl, handlePress, ...props }) => {
   return (
+    // Touchable Button
     <TouchableOpacity
       style={{
         width: 40,
@@ -18,6 +20,7 @@ export const CircleButton = ({ imgUrl, handlePress, ...props }) => {
       }}
       onPress={handlePress}
     >
+      {/* Button Image */}
       <Image
         source={imgUrl}
         resizeMode="contain"
@@ -27,8 +30,10 @@ export const CircleButton = ({ imgUrl, handlePress, ...props }) => {
   );
 };
 
+// Rectangle Button
 export const RectButton = ({ minWidth, fontSize, handlePress, ...props }) => {
   return (
+    // Button
     <TouchableOpacity
       style={{
         backgroundColor: COLORS.primary,
@@ -39,6 +44,7 @@ export const RectButton = ({ minWidth, fontSize, handlePress, ...props }) => {
       }}
       onPress={handlePress}
     >
+      {/* Button Text */}
       <Text
         style={{
           fontFamily: FONTS.semiBold,

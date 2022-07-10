@@ -4,6 +4,7 @@ import { View, Text } from "react-native";
 import { EthPrice, NFTTitle } from "./SubInfo";
 import { COLORS, SIZES, FONTS } from "../constants";
 
+// Details Description
 const DetailsDesc = ({ data }) => {
   const [text, setText] = useState(data.description.slice(0, 100));
   const [readMore, setReadMore] = useState(false);
@@ -18,6 +19,7 @@ const DetailsDesc = ({ data }) => {
           alignItems: "center",
         }}
       >
+        {/* NFT Title */}
         <NFTTitle
           title={data.name}
           subTitle={data.creator}
@@ -25,10 +27,12 @@ const DetailsDesc = ({ data }) => {
           subTitleSize={SIZES.font}
         />
 
+        {/* Eth Price */}
         <EthPrice price={data.price} />
       </View>
 
       <View style={{ marginVertical: SIZES.extraLarge * 1.5 }}>
+        {/* Description Heading */}
         <Text
           style={{
             fontSize: SIZES.font,
@@ -38,6 +42,7 @@ const DetailsDesc = ({ data }) => {
         >
           Description
         </Text>
+        {/* Description */}
         <View style={{ marginTop: SIZES.base }}>
           <Text
             style={{
@@ -49,6 +54,7 @@ const DetailsDesc = ({ data }) => {
           >
             {text}
             {!readMore && "..."}
+            {/* Show More or Less */}
             <Text
               onPress={() => {
                 if (!readMore) {

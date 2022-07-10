@@ -1,3 +1,6 @@
+// Add new components here after creating them
+// Make sure not to delete anything from here (if not sure)
+
 import HomeHeader from "./HomeHeader";
 import FocusedStatusBar from "./FocusedStatusBar";
 import { CircleButton, RectButton } from "./Button";
