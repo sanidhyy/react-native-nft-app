@@ -28,6 +28,14 @@
 
 **More Info** related [How to start Expo App](https://www.reactnative.dev/docs/environment-setup "How to start Expo App")
 
+### :raising_hand: Need Help?
+
+If you run into issues during installation or setup:
+
+- **GitHub Discussions** — [Open a Q&A discussion](https://github.com/sanidhyy/react-native-nft-app/discussions/new?category=q-a) for setup and troubleshooting help.
+- **Email** — [sanidhyyy@gmail.com](mailto:sanidhyyy@gmail.com)
+- **Discord** — `sanidhyy`
+
 ## :camera: Screenshots:
 
 <img src="https://user-images.githubusercontent.com/71302066/178145214-744889e8-8515-4851-bce6-be1fd968037e.jpg" alt="A React Native NFT Marketplace App" height="700" />
