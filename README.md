@@ -2,13 +2,13 @@
 
 <img src="https://user-images.githubusercontent.com/71302066/178145214-744889e8-8515-4851-bce6-be1fd968037e.jpg" alt="A React Native NFT Marketplace App" height="700" />
 
-[![Ask Me Anything!](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://github.com/Technical-Shubham-tech "Ask Me Anything!")
-[![GitHub license](https://img.shields.io/github/license/Technical-Shubham-tech/react-native-nft-app)](https://github.com/Technical-Shubham-tech/react-native-nft-app/blob/main/LICENSE.md "GitHub license")
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/Technical-Shubham-tech/react-native-nft-app/commits/main "Maintenance")
-[![GitHub branches](https://badgen.net/github/branches/Technical-Shubham-tech/react-native-nft-app)](https://github.com/Technical-Shubham-tech/react-native-nft-app/branches "GitHub branches")
-[![Github commits](https://badgen.net/github/commits/Technical-Shubham-tech/react-native-nft-app/main)](https://github.com/Technical-Shubham-tech/react-native-nft-app/commits "Github commits")
-[![GitHub issues](https://img.shields.io/github/issues/Technical-Shubham-tech/react-native-nft-app)](https://github.com/Technical-Shubham-tech/react-native-nft-app/issues "GitHub issues")
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/Technical-Shubham-tech/react-native-nft-app)](https://github.com/Technical-Shubham-tech/react-native-nft-app/pulls "GitHub pull requests")
+[![Ask Me Anything!](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://github.com/sanidhyy "Ask Me Anything!")
+[![GitHub license](https://img.shields.io/github/license/sanidhyy/react-native-nft-app)](https://github.com/sanidhyy/react-native-nft-app/blob/main/LICENSE.md "GitHub license")
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/sanidhyy/react-native-nft-app/commits/main "Maintenance")
+[![GitHub branches](https://badgen.net/github/branches/sanidhyy/react-native-nft-app)](https://github.com/sanidhyy/react-native-nft-app/branches "GitHub branches")
+[![Github commits](https://badgen.net/github/commits/sanidhyy/react-native-nft-app/main)](https://github.com/sanidhyy/react-native-nft-app/commits "Github commits")
+[![GitHub issues](https://img.shields.io/github/issues/sanidhyy/react-native-nft-app)](https://github.com/sanidhyy/react-native-nft-app/issues "GitHub issues")
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/sanidhyy/react-native-nft-app)](https://github.com/sanidhyy/react-native-nft-app/pulls "GitHub pull requests")
 [![Showcase Website](https://img.shields.io/badge/showcase-website-default.svg)](https://pronef-showcase-app.netlify.app/ "Showcase Website")
 
 ## :warning: Before you start
@@ -52,7 +52,7 @@ If you run into issues during installation or setup:
 
 [<img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" width="150" />](https://www.reactnative.dev/ "React Native")
 
-[<img src="http://ForTheBadge.com/images/badges/built-with-love.svg" alt="Built with Love">](https://github.com/Technical-Shubham-tech "Built with Love")
+[<img src="http://ForTheBadge.com/images/badges/built-with-love.svg" alt="Built with Love">](https://github.com/sanidhyy "Built with Love")
 
 ## :raised_hands: Contribute
 
@@ -64,9 +64,8 @@ You might encounter some bugs while using this app. You are more than welcome to
 
 ## :rocket: Follow Me
 
-[![GitHub followers](https://img.shields.io/github/followers/Technical-Shubham-tech?style=social&label=Follow&maxAge=2592000)](https://github.com/Technical-Shubham-tech "Follow Me")
-[![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FTechnicalShubam)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2FTechnical-Shubham-tech%2Fmedical-chat-app "Tweet")
-[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UCNAz_hUVBG2ZUN8TVm0bmYw "Subscribe my Channel")
+[![GitHub followers](https://img.shields.io/github/followers/sanidhyy?style=social&label=Follow&maxAge=2592000)](https://github.com/sanidhyy "Follow Me")
+[![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2F_sanidhyy)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fsanidhyy%2Fmedical-chat-app "Tweet")
 
 ## :star: Give A Star
 
